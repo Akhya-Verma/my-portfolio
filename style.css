@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(15, 15, 14);
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+.name{
+    width: 70%;
+    font-size: x-large;
+}
+.navbar a{
+color:rgb(15, 15, 14);
+text-decoration: none; /* Remove underline from links */
+
+} 
+/*main photo*/
+
+.image {
+    position: relative;
+    height: 90%;
+   max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .image img {
+    width: 100%;
+    height: 100%; /* This maintains the aspect ratio of the image */
+    display: block; /* Ensures there is no extra space around the image */
+}
+  /*
+  .image h1 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    display: inline-flex;
+    transform: translate(-60%, -60%);
+    color: #fff;
+    align-items: center;
+    font-size: 63px;
+    transition: letter-spacing 0.6s ease;
+
+   
+  }*/
+
+  .image h1 {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-54%, -54%);
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+    transition: letter-spacing 0.3s ease;
+  }
+  
+  .image:hover {
+    letter-spacing: 20px;
+    font-size: 90px;
+    filter: grayscale(90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/** about **/
+.about{
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 20px; 
+ background-color: whitesmoke;
+ 
+   
+}
+.about .left{
+    align-items: center;
+    width: 50%;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    cursor: default;
+}
+.about .left p{
+    width: 500px;
+   
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about .left h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+} 
+.about .right{
+    margin-left: 70px;
+    margin-right: 60px;
+    display: inline-flex;
+    width: 30%;
+    height: 100vh;
+    padding-right: 100px;
+  }
+  .right img{
+    height: 600px;
+    border-radius: 20px;
+    margin: 25px 0px 20px 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+.about .socialmedia{
+    display: flex;
+   color: black;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Increase size for font-based icons */
+   margin-left: 20px;
+    align-items: center;
+    font-size: 40px; /* Increase size for font-based icons */
+    width: 50px;     /* For icons loaded as images */
+    height: 50px;
+    gap: 30px;         
+}
+.socialmedia a{
+    color: black;
+}
+/*tech stack*/
+
+  /* ICON PAGE */
+  
+  .container {
+    background-color: #e0f7fa;
+    height: 450px;
+    width: 100%;
+  }
+  
+  .container h2 {
+    color: #00796b;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+   padding-top: 25px;
+   font-size: xx-large;
+  }
+  
+  .item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .item img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .item img:hover {
+    transform: scale(1.1);
+  }
+  /* Gallery page */
+  
+  .gallery {
+    width: 100%;
+    height: 95%;
+    background-color: #f4ddef;
+  }
+  
+  .gallery h3 {
+    margin: 50px 0 30px 0;
+    color: #c927ab;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: xx-large;
+  }
+  .gallery-grid {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+    
+  }
+  
+  .gallery-grid img {
+    height: 250px;
+    width: 200px;
+    padding: 10px, 10, 10,10px;
+    filter: brightness(50%);
+    transition: filter 0.5s, ease, transform 0.6s ease;
+  }
+  
+  .gallery-grid img:hover {
+    filter: brightness(120%);
+    transform: translateY(-10px);
+    border-radius: 30px;
+  }
+  
+  .blank {
+    width: 100%;
+    height: 35px;
+  }
+  
+  footer h3 {
+    color: #333;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .heart {
+    color: red;
+    font-size: 15px;
+    padding: 0 5px 0 5px;
+  }
+
+
